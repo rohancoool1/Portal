@@ -1,0 +1,126 @@
+/* NAV FILTER */
+
+.nav-filter {
+    position: relative;
+}
+
+.nav-filter .col-md-6.col-sm-6 {
+    cursor: pointer;
+    transition: .05s ease-in-out;
+    color: #d8d8d8;
+}
+
+.nav-filter .col-md-6.col-sm-6:hover {
+    color: #acacac;
+}
+
+.nav-filter .col-md-6.col-sm-6 h3 {
+    font-size: 1rem !important;
+    height: 1.3rem;
+    transition: .05s ease-in-out;
+}
+
+.nav-filter .col-md-6.col-sm-6.active {
+    color: black;
+}
+.nav-filter .col-md-6.col-sm-6.active h3 {
+    font-size: 1.3rem !important;
+}
+
+/* END NAV FILTER */
+
+/* LOADING *//* HTML: <div class="loader"></div> */
+.loader {
+    display: inline-flex;
+    gap: 10px;
+    transform: scale(5);
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+      linear-gradient(#222 0 0) top/100% 40% no-repeat,
+      radial-gradient(farthest-side,#000 95%,#0000) 50%/8px 8px no-repeat
+      #fff;
+    animation: l7 1.5s infinite alternate ease-in;
+  }
+  @keyframes l7 {
+    0%,
+    70% {background-size:100% 40%,8px 8px}
+    85% {background-size:100% 120%,8px 8px}
+    100% {background-size:100% 40%,8px 8px}
+  }
+/* END LOADING */
+
+/* TRANSACTION CARD */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+}
+
+.l-bg-cherry {
+    background: linear-gradient(to right, #493240, #f09) !important;
+    color: #fff;
+}
+
+.l-bg-blue-dark {
+    background: linear-gradient(to right, #373b44, #4286f4) !important;
+    color: #fff;
+}
+
+.l-bg-green-dark {
+    background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+    color: #fff;
+}
+
+.l-bg-orange-dark {
+    background: linear-gradient(to right, #a86008, #ffba56) !important;
+    color: #fff;
+}
+
+.card .card-statistic-3 .card-icon-large .fas,
+.card .card-statistic-3 .card-icon-large .far,
+.card .card-statistic-3 .card-icon-large .fab,
+.card .card-statistic-3 .card-icon-large .fal {
+    font-size: 110px;
+}
+
+.card .card-statistic-3 .card-icon {
+    text-align: center;
+    line-height: 50px;
+    margin-left: 15px;
+    color: #000;
+    position: absolute;
+    right: -5px;
+    top: 20px;
+    opacity: 0.1;
+}
+
+.l-bg-cyan {
+    background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+    color: #fff;
+}
+
+.l-bg-green {
+    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%) !important;
+    color: #fff;
+}
+
+.l-bg-orange {
+    background: linear-gradient(to right, #f9900e, #ffba56) !important;
+    color: #fff;
+}
+
+.l-bg-cyan {
+    background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+    color: #fff;
+}
+
+/* END TRANSACTION CARD */
