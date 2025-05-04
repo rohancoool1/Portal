@@ -33,7 +33,7 @@
 .loader {
     display: inline-flex;
     gap: 10px;
-    transform: scale(5);
+    transform: scale(2);
   }
   .loader:before,
   .loader:after {
